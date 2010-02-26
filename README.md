@@ -13,8 +13,7 @@ JavaScript port of [Fran Lukesh's Hotwire][hotwire] originally created for AS3.
             handleItemDeselected: function(e) {},
         };
 
-        $("ul#tabs")
-        .hotwire("click", "item_selected", "item_deselected", delegate);
+        $("ul#tabs").hotwire("click", "item_selected", "item_deselected", delegate);
     }
 
 
