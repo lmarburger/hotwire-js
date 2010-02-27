@@ -44,4 +44,4 @@ Copyright (c) 2010 Larry Marburger. See [LICENSE][] for details.
 
 
 [hotwire]: http://github.com/lukesh/hotwire
-[LICENSE]: http://github.com/lmarburger/hotwire/blob/master/LICENSE
+[LICENSE]: http://github.com/lmarburger/hotwire-js/blob/master/LICENSE
