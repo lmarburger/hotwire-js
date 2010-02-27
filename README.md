@@ -38,5 +38,10 @@ It's not rocket science, but it might save you a few keystrokes.
 * Commit.
 * Send me a pull request. Bonus points for topic branches.
 
+## Copyright
+
+Copyright (c) 2010 Larry Marburger. See [LICENSE][] for details.
+
 
 [hotwire]: http://github.com/lukesh/hotwire
+[LICENSE]: http://github.com/lmarburger/hotwire/blob/master/LICENSE
