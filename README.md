@@ -13,10 +13,10 @@ JavaScript port of [Fran Lukesh's Hotwire][hotwire] originally created for AS3.
     };
 
     // Native jQuery
-    $("ul#tabs").
-        bind("click", delegate.handleClick)
-        bind("item_selected", delegate.handleItemSelected)
-        bind("item_deselected", delegate.handleItemDeselected);
+    $("ul#tabs")
+        .bind("click", delegate.handleClick)
+        .bind("item_selected", delegate.handleItemSelected)
+        .bind("item_deselected", delegate.handleItemDeselected);
 
     // Using Hotwire
     $("ul#tabs").hotwire("click", "item_selected", "item_deselected", delegate);
