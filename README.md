@@ -25,9 +25,7 @@ Hotwire uses convention to wire up event handlers. You simply give it a bunch of
 events and a delegate where the handlers live, and it'll wire things up.
 
 Wiring up a click event, Hotwire will look on the delegate supplied for a method
-named "handleClick". Simple.
-
-It's not rocket science, but it might save you a few keystrokes.
+named "handleClick". Simple. It's not rocket science, but it might save you a few keystrokes.
 
 ## Note on Patches/Pull Requests
 
