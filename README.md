@@ -9,7 +9,7 @@ JavaScript port of [Fran Lukesh's Hotwire][hotwire] originally created for AS3.
     var delegate = {
         handleClick: function(e) {},
         handleItemSelected: function(e) {},
-        handleItemDeselected: function(e) {},
+        handleItemDeselected: function(e) {}
     };
 
     // Native jQuery
