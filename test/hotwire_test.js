@@ -36,6 +36,15 @@ test("Event name with underscores", function() {
       .trigger("item_selected");
 });
 
+test("Event name with colon", function() {
+  expect(1);
+
+  $("ul#tabs")
+    .hotwire("item:selected", delegate)
+    .children("#item1")
+      .trigger("item:selected");
+});
+
 test("Multiple events", function() {
   expect(3);
 

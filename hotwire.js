@@ -9,7 +9,7 @@
 
       $(events).each(function(i, eventName) {
         var
-          titleized = $(eventName.split(/_/)).map(function(i, word) {
+          titleized = $(eventName.split(/[_:]/)).map(function(i, word) {
             var firstChar = word[0].toUpperCase(),
               rest = word.slice(1, word.length);
 
