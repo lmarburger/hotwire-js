@@ -19,13 +19,15 @@ JavaScript port of [Fran Lukesh's Hotwire][hotwire] originally created for AS3.
         .bind("item_deselected", delegate.handleItemDeselected);
 
     // Using Hotwire
-    $("ul#tabs").hotwire("click", "item_selected", "item_deselected", delegate);
+    $("ul#tabs").hotwire(delegate, "click", "item_selected", "item_deselected");
 
-Hotwire uses convention to wire up event handlers. You simply give it a bunch of
-events and a delegate where the handlers live, and it'll wire things up.
+Hotwire uses convention to wire up event handlers. Simply give it a delegate
+where the handlers live and a bunch of events to attach and it'll wire things
+up.
 
-Wiring up a click event, Hotwire will look on the delegate supplied for a method
-named "handleClick". Simple. It's not rocket science, but it might save you a few keystrokes.
+Wiring up a click event, for example, Hotwire will look on the delegate supplied
+for a method named "handleClick". Simple. It's not rocket science, but it might
+save you a few keystrokes.
 
 ## Note on Patches/Pull Requests
 
