@@ -6,15 +6,15 @@ module("hotwire", {
 });
 
 var delegate = {
-  handleClick: function(e) {
+  click: function(e) {
     ok(true, "click handler fired");
   },
 
-  handleItemSelected: function(e) {
+  itemSelected: function(e) {
     ok(true, "item_selected handler fired");
   },
 
-  handleCustom: function(e) {
+  custom: function(e) {
     ok(true, "custom handler fired");
   }
 };
