@@ -10,7 +10,7 @@
             titleized = words.map(function(i, word) {
               if (i == 0) { return word; }
 
-              var firstChar = word[0].toUpperCase(),
+              var firstChar = word.charAt(0).toUpperCase(),
                   rest      = word.slice(1, word.length);
 
               return firstChar + rest;
