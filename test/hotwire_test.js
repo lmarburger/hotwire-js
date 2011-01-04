@@ -45,6 +45,15 @@ test("Event name with colon", function() {
       .trigger("item:selected");
 });
 
+test("Event name with period", function() {
+  expect(1);
+
+  $("ul#tabs")
+    .hotwire(delegate, "item.selected")
+    .children("#item1")
+      .trigger("item.selected");
+});
+
 test("Multiple events", function() {
   expect(3);
 

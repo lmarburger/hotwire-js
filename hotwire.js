@@ -6,7 +6,7 @@
           events = args.slice(1, args.length);
 
       $(events).each(function(i, eventName) {
-        var words     = $(eventName.split(/[_:]/)),
+        var words     = $(eventName.split(/[_:.]/)),
             titleized = words.map(function(i, word) {
               if (i === 0) { return word; }
 
